@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.a {
+    position: fixed;
+    border: solid 0.14vw black;
+    display: inline-block;
+    height: 13vh;
+    width: 100vw;
+    box-shadow: 0 0.44vh 0.89vh rgba(0, 0, 0, 1);
+    top: 0;
+    left: 0;
+    background-color: #ffc0cb;
+}
+.b {
+    display: block;
+    height: 88.9vh;
+    width: 100vw;
+    gap: 0;
+}
+.c {
+    background-color: #ffdfe4;
+    display: block;
+    height: 38.9vh;
+    width: 100vw;
+    position: relative;
+    gap: 0;
+}
+.ab {
+    display: inline-block;
+    height: 80%;
+    width: 6vw;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    transform: translateX(-50%);
+}
+.cb {
+    display: inline-block;
+    height: 33.3vh;
+    width: 90.3vw;
+    position: absolute;
+    top: 0%;
+    left: 4.55%;
+}
+.cbc1 {
+    display: inline-block;
+    height: 100%;
+    width: 33%;
+    position: relative;
+}
+.cbc11 {
+    display: grid;
+    height: 90%;
+    width: 80%;
+    border-radius: 5.5vh;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    place-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.7vw 1.1vh 2.2vh rgb(19, 18, 19);
+}
+.aa {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 3.9vh;
+    right: 6.25vw;
+    text-decoration: none;
+}
+.ac {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 3.9vh;
+    right: 2.08vw;
+    text-decoration: none;
+}
+.heading {
+    display: inline-block;
+    height: 12.5vh;
+    width: 48vw;
+    position: absolute;
+    top: 0%;
+    left: 25%;
+}
+.d {
+    display: inline-block;
+    width: 100vw;
+    height: 10vh;
+    position: relative;
+    background-color: #ffdfe4;
+}
+.cityname {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 70%;
+}
+div > u {
+    color: blue;
+}
+.da {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}

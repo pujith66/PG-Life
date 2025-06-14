@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.a {
+    position: fixed;
+    display: inline-block;
+    height: 13vh;
+    width: 100vw;
+    box-shadow: 0 0.5vh 1vh rgba(0, 0, 0, 0.5); 
+    top: 0;
+    left: 0;
+    background-color: #ffc0cb;
+    z-index: 1;
+}
+.heading {
+    display: inline-block;
+    height: 12.5vh;
+    width: 48vw;
+    position: absolute;
+    top: 0;
+    left: 25%;
+}
+.ab {
+    display: inline-block;
+    height: 80%;
+    width: 6%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    transform: translateX(-50%);
+}
+.aa {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 3.5vh;
+    right: 6vw;
+}
+.ac {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 3.5vh;
+    right: 2vw;
+}
+.da {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.d {
+    display: inline-block;
+    width: 100vw;
+    height: 10vh;
+    position: relative;
+    background-color: #ffdfe4;
+}
+div > u {
+    color: blue;
+}
+.b {
+    display: grid;
+    width: auto;
+    height: auto;
+    background-color: #ffdfe4;
+}
+.delhi,
+.hyderabad,
+.mumbai {
+    display: inline-block;
+    width: 97.2vw;
+    min-height: 25vh;
+    background-color: #ffdfe4;
+    position: relative;
+    transform: translateX(1.4vw);
+    margin-bottom: 4vh;
+}
+.gap {
+    display: grid;
+    height: 10vh;
+    width: 100vw;
+    background-color: #ffdfe4;
+}
+.picDelhi,
+.picHyderabad,
+.picMumbai {
+    display: inline-block;
+    width: 21vw;
+    height: 26vh;
+    background-color: white;
+    position: absolute;
+    top: 3vh;
+    left: 2vw;
+    border-radius: 1vh;
+    background-color: #ffdfe4;
+}
+.amenities1,
+.amenities2,
+.amenities3 {
+    display: inline-block;
+    min-height: 26vh;
+    width: 62vw;
+    position: absolute;
+    top: 3vh;
+    left: 27vw;
+    box-shadow: 0 0.5vh 1vh rgba(255, 110, 199, 0.5);
+    background-color: #ffe8ec;
+    border-radius: 4vh;
+}
+.address {
+    height: auto;
+    width: 90%;
+    transform: translateY(2vh);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8vh;
+}
+.amenities1a {
+    position: absolute;
+    top: 6vh;
+    left: 2vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30vw;
+    height: 7vh;
+}
+.amenities1a img {
+    max-width: 2vw;
+    margin: 0.5vh;
+}
+.location {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 13vh;
+    left: 2vw;
+    font-size: 1.8vh;
+}
+.fare {
+    position: absolute;
+    top: 5vh;
+    left: 35vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+}
+.button1 > button,
+.button2 > button {
+    cursor: pointer;
+    width: 14vw;
+    height: 6vh;
+    background-color: pink;
+    border: 0.3vh solid black;
+    border-radius: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+    position: absolute;
+    left: 55vw;
+    transform: scale(1.05);
+}
+.button1 > button {
+    top: 5%;
+}
+.button2 > button {
+    top: 40%;
+}
+.buttons {
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    width: 20vw;
+    position: absolute;
+    left: 65%;
+    top: 6vh;
+}
