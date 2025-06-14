@@ -11,7 +11,7 @@ Welcome to **PG Life**, a simple web-based application designed to showcase avai
 This website was built as part of my learning journey during the **Internshala Web Development course**. It helped me practice real-world layout design, responsive UI using CSS, and dynamic content rendering principles.
 
 ---
-##Project webpage link:""
+##**Project webpage link:""**
 
 ## 💡 Features
 
@@ -43,15 +43,6 @@ This website was built as part of my learning journey during the **Internshala W
 └── README.md # This file
 ---
 
-## 📸 Screenshots
-
-| Homepage Sample |
-|-----------------|
-| ![PG Life Screenshot](./images/screenshot.png) |
-
-> _Add your screenshot image in the `/images/` folder and update the path above._
-
----
 
 ## 📚 What I Learned
 
